@@ -1,0 +1,205 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    background-image: url(primeraimg/Olympia_Collage_0.webp);
+
+}
+
+.titulo{
+    color:black;
+    font-size: 28px;
+    padding: 0;
+    font-weight: bolder;
+}
+.titulo:hover{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+header{
+    display: flex;
+    min-height: 70px;
+    background: #155C67;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    transition: 0,4s;
+}
+
+header:hover{
+    background: #3f3f3f;
+    transition: 0,4s;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    background-color: black;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 100px;
+}
+
+nav a{
+    font-weight: 600;
+    padding: 10px; 
+}
+
+nav a:hover{
+    color: white;
+}
+
+h2{
+    font-family: sans-serif ;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px;
+    text-decoration: underline ;
+}
+
+.web { 
+ background-color: black;
+ margin: 25px;
+ padding: 1px;
+ border-radius: 10px;
+ box-shadow: white;
+}
+
+.fotouno{
+    
+    width: 100%;
+    border-radius: 10px;
+    
+}
+
+
+
+.olympia{
+    font-family: 'calibri';
+    background-color: whitesmoke;
+    margin: 25px;
+    padding: 10px;
+    
+}
+
+
+.fotodos{
+    width: 150px;
+    margin: 0px;
+    border-radius: 10px;
+    padding-left: 0px;
+    box-shadow: white;
+}
+
+ol{
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    
+    
+}
+
+p{
+    font-size: 20px;
+}
+
+strong{
+    font-weight: bold;
+}
+
+.open{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
+    margin: 25px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.fototres{
+    width: 70%;
+    margin: 0px;
+    border-radius: 15px;
+    padding-left: 10px;
+    box-shadow: white;
+}
+
+.classic{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
+    margin: 25px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.fotocinco{
+    width: 70%;
+    margin: 0px;
+    border-radius: 15px;
+    padding-left: 10px;
+    box-shadow: white;
+}
+
+.mens{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
+    margin: 25px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.fotoseis{
+    width: 70%;
+    margin: 0px;
+    border-radius: 15px;
+    padding-left: 10px;
+    box-shadow: white;
+}
+
+.enlace{
+    font-weight: bold;
+
+}
+
+.contacto{
+    font-family:'calibri';
+    color: white;
+    margin-left: 40%;
+    font-weight: bold;
+}
+
+h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+
+@media (max-width:480px){
+    header{
+        flex-direction: column;
+    }
+
+    nav{
+        padding: 10px;
+    }
+
+    p{
+     flex-direction: column;
+     justify-content: space-around;
+     align-items: center;
+    }
+
+    .contacto{
+        margin-left: 20%;
+    }
+
+}
